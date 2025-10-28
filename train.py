@@ -6,7 +6,7 @@ import numpy as np
 import torch
 import gymnasium as gym
 
-from config.bandit import args_bandit_rl2, args_bandit_mpc
+from config import args_mpc, args_rl2
 from metalearner import MetaLearner
 
 
@@ -20,12 +20,12 @@ def main():
 
     if args_for_exp_label.exp_label == 'mpc':
         # set model type: mpc
-        parser = args_bandit_mpc.get_args()
+        parser = args_mpc.get_args()
         args = parser.parse_args()
         args.exp_label = 'mpc'
     elif args_for_exp_label.exp_label == 'rl2':
         # set model type: mpc
-        parser = args_bandit_rl2.get_args()
+        parser = args_rl2.get_args()
         args = parser.parse_args()
         args.exp_label = 'rl2'
     else:
