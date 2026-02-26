@@ -3,11 +3,14 @@ Code for the paper: "Predictive Coding Enhances Meta-RL To Achieve Interpretable
 (arXiv: [https://arxiv.org/abs/2510.22039](https://arxiv.org/abs/2510.22039))
 
 ```
-@inproceedings{kuo2025predictive,
-  title={Predictive Coding Enhances Meta-RL To Achieve Interpretable Bayes-Optimal Belief Representation Under Partial Observability},
-  author={Kuo, Po-Chen and Hou, Han and Dabney, Will and Walker, Edgar Y.},
-  booktitle={Neural Information Processing Systems (NeurIPS)},
-  year={2025}
+@inproceedings{
+kuo2025predictive,
+title={Predictive Coding Enhances Meta-{RL} To Achieve Interpretable Bayes-Optimal Belief Representation Under Partial Observability},
+author={Po-Chen Kuo and Han Hou and Will Dabney and Edgar Y. Walker},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=ykDUVoelgj}
+}
 ```
 
 ### Overview
